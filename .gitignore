@@ -1,0 +1,13 @@
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/*
+__pycache__/
+.venv/
+venv/
+.env
+
+!models/precision_expert/.gitkeep
+!models/kinetic_expert/.gitkeep
+!runs/.gitkeep
